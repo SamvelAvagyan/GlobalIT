@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1418px;
+	margin: 42px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(72, 72, 72, 0.3);
+	/* height: 85vh; */
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+form input {
+	width: 372px;
+	height: 52px;
+	background: rgba(122, 122, 122, 0.25);
+	border-radius: 12px;
+	border: 0;
+	padding-left: 10px;
+	margin-top: 36px;
+	color: white;
+}
+form input:first-child {
+	margin-top: 0;
+}
+form input:focus {
+	outline: none;
+}
+
+form input:invalid {
+	border: red 1px solid;
+	color: red;
+}
+
+.form_div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 23px;
+}
+.form_div p {
+	color: white;
+	text-align: center;
+}
+
+.stud_button {
+	background: #e208a5;
+	border-radius: 12px;
+	padding: 18px 30px;
+	border: 0;
+	color: white;
+}
+
+.stud_button:last-child {
+	background: #555555;
+}
+
+.stud_buttons_div {
+	width: 264px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 32px;
+}
+
+.stud_logo {
+	margin-left: 30px;
+	margin-top: 38px;
+}

@@ -1,0 +1,42 @@
+.regless-title {
+	margin-top: 93px;
+	font-size: 42px;
+	font-weight: bold;
+}
+form {
+	margin-top: 64px;
+	position: relative;
+}
+form input::placeholder {
+	font-size: 16px;
+}
+form div {
+	width: 414px;
+	height: 120px;
+	background: #545454;
+	border-radius: 12px;
+	font-size: 16px;
+}
+
+.dropdown-options {
+	margin: 16px 0 0 16px;
+}
+
+.dropdown-var p:first-child {
+	margin: 34px 0 0 16px;
+}
+
+.regless-button {
+	width: 196px;
+	height: 52px;
+	background: #6c33a3;
+	border-radius: 12px;
+	border: 0;
+	margin-top: 48px;
+}
+
+.vector_arrow {
+	position: absolute;
+	top: 0;
+	left: 0;
+}

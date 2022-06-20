@@ -1,0 +1,7 @@
+.container_com{
+    height: auto;
+    max-width: 100%;
+    background-image: url('../../images/Comingbg.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
