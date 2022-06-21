@@ -19,7 +19,7 @@ import { useLocation } from 'react-router-dom'
 
     async function getService(){
         let response = await fetch(
-			"https://test.globalitc.am/kjsamcpPIBYXTvnooHTCVIyUCTCUxxrRMoK/service-list/"
+			"http://localhost:8000/kjsamcpPIBYXTvnooHTCVIyUCTCUxxrRMoK/service-list/"
 		);
         let obj = await response.json();
         for(let i = 0; i < obj.length; i++){

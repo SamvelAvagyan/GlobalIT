@@ -2,7 +2,7 @@ import { React, memo, useEffect, useState } from "react";
 import webimg1 from "../../images/web1.png";
 import webimg2 from "../../images/web2.png";
 import webimg3 from "../../images/web3.png";
-import ReactHtmlParser from "html-react-parser";
+import ReactHtmlParser from "react-html-parser";
 
 function WebTypes() {
 	const [websiteTypes, setWebsiteTypes] = useState([]);

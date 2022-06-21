@@ -165,6 +165,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
 
-    "https://test.globalitc.am",
+    "http://localhost:3000",
 
 ]
